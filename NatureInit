@@ -1,0 +1,4 @@
+getgenv().InitLib = true
+local function NatureLib.InitLib(Name, Theme, Icon, New)
+print(Name, Theme, Icon, New)
+end
