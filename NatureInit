@@ -1,4 +1,6 @@
 getgenv().InitLib = true
-local function NatureLib.InitLib(Name, Theme, Icon, New)
-print(Name, Theme, Icon, New)
+local function NatureLib.InitLib(LibName, LibTheme, LibIcon, LibNew)
+local NatureSG = Instance.new("ScreenGui")
+NatureSG.Name = "Nature"
+NatureSG.Parent = game.CoreGui
 end
